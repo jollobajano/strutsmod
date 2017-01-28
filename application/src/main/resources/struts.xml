@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+    
+
+
+    <!-- Constants -->
+
+    <constant name="struts.convention.action.includeJars" value=".*?/module1*?jar(!/)?"></constant>
+    <constant name="struts.convention.result.flatLayout" value="false"></constant>
+    <!--
+    <constant name="struts.convention.result.path" value="WEB-INF/content"></constant>
+    -->
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.ui.theme" value="simple" />
+    <constant name="struts.url.includeParams" value="none" />
+    <constant name="struts.action.extension" value="action"/>
+    <constant name="struts.convention.default.parent.package" value="default"/>
+    <constant name="struts.convention.exclude.parentClassLoader" value="true" />
+    <constant name="struts.convention.action.fileProtocols" value="jar,vfsfile,vfszip" />
+
+
+
+
+    <!-- Default package -->
+
+    <package name="default" extends="struts-default">
+
+
+
+
+
+    </package>
+</struts>
