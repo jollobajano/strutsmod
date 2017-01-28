@@ -22,6 +22,9 @@ contents are added to the final WAR. So I put the different parts of
 the application into separate modules that are collected into the
 final WAR as it is built.
 
+In this scenario we have one main application (`application`) and a
+module (`module1`).
+
 
 
 
