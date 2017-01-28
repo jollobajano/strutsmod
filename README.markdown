@@ -6,7 +6,8 @@ This is a proof of concept.
 
 I wanted to find out how to divide up a large Struts2 project into
 sub modules, preferably into Maven modules packaging the actions and
-results into JAR files.
+results into JAR files, in order to create a _feature per archive_
+type layout.
 
 I thought I've seen some texts about it years ago but they were
 nowhere to be seen.
@@ -14,6 +15,12 @@ nowhere to be seen.
 After spending a full day, unsuccessfully, trying to get Struts2 to
 find results in the JAR files I resigned and found a solution using
 WAR archives and Maven overlays.
+
+When you build a WAR package with Maven and have dependencies of type
+`war` they are not added to `WEB-INF/lib` but rather unpacked and the
+contents are added to the final WAR. So I put the different parts of
+the application into separate modules that are collected into the
+final WAR as it is built.
 
 
 
