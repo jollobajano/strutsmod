@@ -8,5 +8,6 @@
   <body>
       <h1>Action from the <code>module1</code> Module</h1>
       <p><a href="../hello-world.action">Hello World</a></p>
+      <p><a href="../second/another.action">Another</a></p>
   </body>
 </html>

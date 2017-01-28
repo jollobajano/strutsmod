@@ -8,5 +8,6 @@
   <body>
       <h1>Hello World!</h1>
       <p><a href="mod/index.action">Index</a></p>
+      <p><a href="second/another.action">Another</a></p>
   </body>
 </html>

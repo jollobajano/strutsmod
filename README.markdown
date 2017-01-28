@@ -26,6 +26,19 @@ In this scenario we have one main application (`application`) and a
 module (`module1`).
 
 
+__Addendum__
+
+I finally found a workaround using Servlet API &gt;=3.0.
+
+You can publish web resources from a JAR by placing them under the
+`META-INF/resources` directory in the JAR file.
+
+I added a second module called `module2` this is a Maven project which
+produces a JAR file containing an action and a result. When the
+application is deployed the second module can be found at
+[http://localhost:8080/second/another.action](http://localhost:8080/second/another.action)
+
+
 
 
 Building
