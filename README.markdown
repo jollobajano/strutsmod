@@ -6,7 +6,10 @@ This is a proof of concept.
 
 I wanted to find out how to divide up a large Struts2 project into
 sub modules, preferably into Maven modules packaging the actions and
-results into JAR files. 
+results into JAR files.
+
+I thought I've seen some texts about it years ago but they were
+nowhere to be seen.
 
 After spending a full day, unsuccessfully, trying to get Struts2 to
 find results in the JAR files I resigned and found a solution using
