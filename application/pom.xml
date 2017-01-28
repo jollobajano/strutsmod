@@ -33,10 +33,6 @@
 	    <groupId>org.apache.struts</groupId>
 	    <artifactId>struts2-convention-plugin</artifactId>
 	</dependency>
-	<dependency>
-	    <groupId>org.apache.struts</groupId>
-	    <artifactId>struts2-config-browser-plugin</artifactId>
-	</dependency>
     </dependencies>
     
 
