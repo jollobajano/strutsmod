@@ -65,4 +65,4 @@ to build the web appliction in `application/target/strutsmod-application.war`
 I deployed it on a WildFly 8.2.1.Final, built it with Java 1.7.
 
 Browse it at
-[http://localhost:8080/hello-world.action](http://localhost:8080/hello-world.action)
+[http://localhost:8080/](http://localhost:8080/)
