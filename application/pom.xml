@@ -25,12 +25,12 @@
 
     <dependencies>
 	<dependency>
-	    <groupId>${parent.groupId}</groupId>
+	    <groupId>${project.parent.groupId}</groupId>
 	    <artifactId>strutsmod-module1</artifactId>
 	    <type>war</type>
 	</dependency>
 	<dependency>
-	    <groupId>${project.groupId}</groupId>
+	    <groupId>${project.parent.groupId}</groupId>
 	    <artifactId>strutsmod-module2</artifactId>
 	</dependency>
 	<dependency>
